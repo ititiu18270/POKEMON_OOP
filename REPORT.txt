@@ -1,4 +1,3 @@
-                                                                        REPORT OOP PROJECT
 Members of the group 45:
 
 NGUYỄN THĂNG LONG - ITITIU18293
@@ -17,6 +16,18 @@ Functional summary of Class MyFrame:
 
 The MyFrame class is conceptualized with a canvas of 800 width and 650 length. 
 Next in the frame create 2 panels  
-Graphics panel (where the project's algorithm contains and exist, for the default number of matrix is [10,10 ]), 
+Graphics panel (where the project's algorithm contains and exist, for the default number of matrices is [10,10 ]), 
 Control panel (score box appears, time) - Time is set to run in deceleration bar with maxTime is 300s
 Finally, the Dialognewgame framework, if time runs out, it will run again or not, similar to winning
+
+Functional summary of Class (Algorithm)
+
+All of our pokemon are arranged in a matrix pattern (square matrix).
+Next, We have 3 cases for connecting the same pokemon.
+Three cases are: + The case are on the same row or column
+                 + Consider and approve the paths horizontally, vertically within the rectangle
+                 + Consider expanding horizontally and vertically
+In each case we create 2 classes for X and Y (Functions checkLineX and checkLineY, Functions checkRectX (Point p1, Point p2) and checkRectY (Point p1, Point p2), Functions checkMoreLineX (Point p1, Point p2, int type) and checkMoreLineY (Point p1, Point p2, int type) )
+Finally,we will write the function checkTwoPoint (Point p1, Point p2) to check and find a path between any 2 points p1, p2. Besides we create class MyLine as the object to return the value.
+ 
+
