@@ -1,3 +1,0 @@
-# POKEMON_OOP
-POST FULL PROject sau 
-
