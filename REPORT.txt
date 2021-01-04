@@ -35,5 +35,6 @@ Icons are included in the code to be able to run the game
 -When clicking the icon suddenly, it will make them red and let the player easily recognize the icon you have selected
 -After selecting both icons and the program runs properly, both will disappear. If not, the red color in the first icon will disappear.
 -You can create a new game by clicking New Game in the right corner. The time of 1 screen is 1000 seconds, just continue the game screen if all icons disappear, the game will display the words "Win, You are winer, Do you want play again? "but if the icon has not been completed in a certain time, the words" Full time, Do you play again? "
+
  
 
