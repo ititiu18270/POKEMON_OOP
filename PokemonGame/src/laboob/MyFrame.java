@@ -48,7 +48,7 @@ public class MyFrame extends JFrame implements ActionListener, Runnable {
 	private JPanel createMainPanel() {
 		JPanel panel = new JPanel(new BorderLayout());
 		panel.add(createGraphicsPanel(), BorderLayout.CENTER);
-		panel.add(createControlPanel(), BorderLayout.WEST);
+		panel.add(createControlPanel(), BorderLayout.EAST);
 		panel.add(createStatusPanel(), BorderLayout.PAGE_END);
 		return panel;
 	}
