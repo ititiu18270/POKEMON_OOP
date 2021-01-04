@@ -29,6 +29,7 @@ Three cases are: + The case are on the same row or column
                  + Consider expanding horizontally and vertically
 In each case we create 2 classes for X and Y (Functions checkLineX and checkLineY, Functions checkRectX (Point p1, Point p2) and checkRectY (Point p1, Point p2), Functions checkMoreLineX (Point p1, Point p2, int type) and checkMoreLineY (Point p1, Point p2, int type) )
 Finally,we will write the function checkTwoPoint (Point p1, Point p2) to check and find a path between any 2 points p1, p2. Besides we create class MyLine as the object to return the value.
+
 Functional summary of Class(Graphics)
 Icons are included in the code to be able to run the game
 -When clicking the icon suddenly, it will make them red and let the player easily recognize the icon you have selected
