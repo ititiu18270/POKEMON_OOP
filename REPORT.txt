@@ -30,13 +30,7 @@ Three cases are: + The case are on the same row or column
 In each case we create 2 classes for X and Y (Functions checkLineX and checkLineY, Functions checkRectX (Point p1, Point p2) and checkRectY (Point p1, Point p2), Functions checkMoreLineX (Point p1, Point p2, int type) and checkMoreLineY (Point p1, Point p2, int type) )
 Finally,we will write the function checkTwoPoint (Point p1, Point p2) to check and find a path between any 2 points p1, p2. Besides we create class MyLine as the object to return the value.
 
-Functional summary of Class(Graphics)
-Icons are included in the code to be able to run the game
--When clicking the icon suddenly, it will make them red and let the player easily recognize the icon you have selected
--After selecting both icons and the program runs properly, both will disappear. If not, the red color in the first icon will disappear.
--You can create a new game by clicking New Game in the right corner. The time of 1 screen is 1000 seconds, just continue the game screen if all icons disappear, the game will display the words "Win, You are winer, Do you want play again? "but if the icon has not been completed in a certain time, the words" Full time, Do you play again? "
-
- Functional summary of Class(MyLine and MyMain)
+Functional summary of Class(MyLine and MyMain)
  using The Point class to represents a location in a two-dimensional (x, y) coordinate space.
 In class Point we using  toString()
 Returns a representation of this point and its location in the (x, y) coordinate space as a string.
@@ -48,4 +42,11 @@ we call frame to starting counting and begin the game
 adding Exception Handling with try catch statement is a mechanism to handle runtime errors in order
  to maintain the normal flow of the application.
 
+Functional summary of Class(Graphics)
+Icons are included in the code to be able to run the game
+-When clicking the icon suddenly, it will make them red and let the player easily recognize the icon you have selected
+-After selecting both icons and the program runs properly, both will disappear. If not, the red color in the first icon will disappear.
+-You can create a new game by clicking New Game in the right corner. The time of 1 screen is 1000 seconds, just continue the game screen if all icons disappear, the game will display the words "Win, You are winer, Do you want play again? "but if the icon has not been completed in a certain time, the words" Full time, Do you play again? "
+
+ 
 
